@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://adweei-adweei.github.io
-baseurl: /
+baseurl: 
 permalink: pretty
 
 # Pagination
@@ -75,16 +75,16 @@ plugins:
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+# Put your favicon.ico into `image/` directory.
+favicon: /image/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "adweei, overdose"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: https://granbluefantasy.jp/en/
 
 # Specify the date when the site was setup
 since: 2024
@@ -214,7 +214,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  LinkLabel: www.linkedin.com/in/竟維-黃-adweei
+  LinkLabel: https://www.linkedin.com/in/%E7%AB%9F%E7%B6%AD-%E9%BB%83-adweei/
   GitHub: https://github.com/adweei
 
 
@@ -271,7 +271,7 @@ sidebar:
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
-  offset: 12
+  offset: 13
   offset_float: 0
 
   # Back to top in sidebar
